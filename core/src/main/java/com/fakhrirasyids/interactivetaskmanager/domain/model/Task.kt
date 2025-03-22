@@ -1,5 +1,7 @@
 package com.fakhrirasyids.interactivetaskmanager.domain.model
 
+import com.fakhrirasyids.interactivetaskmanager.utils.enums.Priority
+
 data class Task(
     val id: Int,
     val title: String,

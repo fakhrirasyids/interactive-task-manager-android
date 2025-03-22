@@ -4,10 +4,7 @@ import com.fakhrirasyids.interactivetaskmanager.domain.model.Task
 import kotlinx.coroutines.flow.Flow
 
 interface TaskRepository {
-    fun getTasksSortedByPriority(): Flow<List<Task>>
-    fun getTasksSortedByDueDate(): Flow<List<Task>>
-    fun getTasksSortedAlphabetically(): Flow<List<Task>>
-    fun getTasksByStatus(completed: Boolean): Flow<List<Task>>
+    fun getAllTasks(): Flow<List<Task>>
     suspend fun insertTask(task: Task)
     suspend fun deleteTask(task: Task)
 }

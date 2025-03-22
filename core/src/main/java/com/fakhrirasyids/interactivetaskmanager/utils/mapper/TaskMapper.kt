@@ -1,7 +1,7 @@
-package com.fakhrirasyids.interactivetaskmanager.data.mapper
+package com.fakhrirasyids.interactivetaskmanager.utils.mapper
 
 import com.fakhrirasyids.interactivetaskmanager.data.local.entity.TaskEntity
-import com.fakhrirasyids.interactivetaskmanager.domain.model.Priority
+import com.fakhrirasyids.interactivetaskmanager.utils.enums.Priority
 import com.fakhrirasyids.interactivetaskmanager.domain.model.Task
 
 object TaskMapper {
